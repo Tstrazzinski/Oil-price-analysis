@@ -1,0 +1,8 @@
+The dataset used in this analysis was obtained from MacroTrends, a publicly available financial data platform that provides historical crude oil prices. The data was downloaded as a compressed ZIP file from the following source:
+\url{https://www.macrotrends.net/1369/crude-oil-price-history-chart}.
+
+After downloading, the dataset was then extracted and imported into a python environment. The data consisted of monthly crude oil prices recorded over multiple decades. Each entry included a date and a corresponding price in U.S. dollars per barrel.
+
+After downloading the data was cleaned by removing unnecessary text and non-numeric entries. Then sorted the data chronologically using Python’s datetime module. A 12 month-moving-average was computed to reduce small fluctuations and highlight trends in oil prices. This was implemented using a sliding window average of the price data.
+
+The processed dataset was then visualized using the \texttt{matplotlib} library, where both the raw prices and the smoothed moving average were plotted.
