@@ -68,7 +68,7 @@ for label, event_date in events:
 
 # 2. Calculate and print changes between consecutive events
 print("\n" + "="*50)
-print(f"{'EVENT TRANSITION':<40} | {'% CHANGE':<10}")
+print(f"{'Price change':<40} | {'% CHANGE':<10}")
 print("="*50)
 
 for i in range(1, len(event_summary)):
