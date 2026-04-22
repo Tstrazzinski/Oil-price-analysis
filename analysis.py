@@ -1,3 +1,4 @@
+
 import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -53,6 +54,8 @@ for label, event_date in events:
 		plt.axvline(event_date, linestyle='--', alpha=0.6)
 		plt.text(event_date, max(prices)*0.8, label, rotation=90, fontsize = 8)
 plt.ylim(min(prices), max(prices) * 1.25)
+plt.xlabel("Date", fontsize = 14)
+plt.ylabel("Prices", fontsize = 14)
 # --- NEW: Calculate Percentage Change Between Events ---
 
 # 1. Identify prices at each event date
