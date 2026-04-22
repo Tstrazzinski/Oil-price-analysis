@@ -1,8 +1,27 @@
 The oil price data is shown in Figure~\ref{fig:oil}, which includes the monthly prices and the 12 month moving average.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{oil_prices_plot.pdf}
+\includegraphics[width=\textwidth]{oil_prices_plot.pdf}
 \caption{Historical crude oil prices with a 12 month moving average and major economic events.}
 \label{fig:oil}
 \end{figure}
 The results show clear patterns in the oil price data. We can see how the moving average made the peaks relatively smooth in order to better understand the peaks and troughs of oil prices. We can see sharp changes in price behavior and that they are connected to major global events.
+\[
+\text{Percentage Change} = \frac{P_{\text{new}} - P_{\text{old}}}{P_{\text{old}}} \times 100
+\]
+\begin{table}[H]
+\centering
+\begin{tabular}{l c}
+\hline
+Event Transition & \% Change \\
+\hline
+1973 Oil Crisis $\rightarrow$ 1978 Oil Shock & +244.55\% \\
+1978 Oil Shock $\rightarrow$ 1986 Oil Price Collapse & +27.61\% \\
+1986 Oil Price Collapse $\rightarrow$ 1999 OPEC Production Cuts & -32.40\% \\
+1999 OPEC Production Cuts $\rightarrow$ 2008 Financial Crisis & +686.10\% \\
+2008 Financial Crisis $\rightarrow$ 2016 Oil Prices Fall & -66.57\% \\
+2016 Oil Prices Fall $\rightarrow$ 2020 COVID Crisis & +19.13\% \\
+\hline
+\end{tabular}
+\caption{Percentage change in oil prices between major economic events}
+\end{table}
