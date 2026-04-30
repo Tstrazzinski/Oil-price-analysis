@@ -26,7 +26,7 @@ with open ('Oil prices for computational physics.csv', 'r') as file:
 sorted_data = sorted(zip(dates, prices))
 dates = [x[0] for x in sorted_data]
 prices = [x[1] for x in sorted_data]
-
+#calculate moving average in order to make the data easier to understand
 moving_averages = []
 window_size = 12
 
